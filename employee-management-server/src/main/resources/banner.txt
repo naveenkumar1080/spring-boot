@@ -1,0 +1,15 @@
+${Ansi.GREEN} EEEEEEEE MM     MM  SSSSSS
+${Ansi.GREEN} EE       MMM   MMM SS    SS
+${Ansi.GREEN} EE       MMMM MMMM SS
+${Ansi.GREEN} EEEEEE   MM MMM MM  SSSSSS
+${Ansi.GREEN} EE       MM     MM       SS
+${Ansi.GREEN} EE       MM     MM SS    SS
+${Ansi.GREEN} EEEEEEEE MM     MM  SSSSSS
+${AnsiColor.BRIGHT_RED}
+--------------------------------------------------------------------
+Spring Boot Version : ${spring-boot.version}
+Application Name : Employee Management System
+Application Version : ${application.version}
+::::: Application Developed by Naveen Kumar :::::
+--------------------------------------------------------------------
+${AnsiColor.BLACK}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="employee-management-domain" />
+        <module name="employee-management-server" />
+        <module name="employee-management-web" />
+        <module name="employee-management-jpa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="employee-management-domain" target="8" />
+      <module name="employee-management-jpa" target="8" />
+      <module name="employee-management-server" target="8" />
+      <module name="employee-management-system" target="8" />
+      <module name="employee-management-web" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="employee-management-domain" options="-parameters" />
+      <module name="employee-management-jpa" options="-parameters" />
+      <module name="employee-management-server" options="-parameters" />
+      <module name="employee-management-system" options="-parameters" />
+      <module name="employee-management-web" options="-parameters" />
+    </option>
+  </component>
+</project>
