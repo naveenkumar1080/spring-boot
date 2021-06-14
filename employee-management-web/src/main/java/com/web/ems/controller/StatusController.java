@@ -13,13 +13,14 @@ public class StatusController {
     public ResponseEntity<String> getStatus() {
         final String response = "OK";
 
-        return ResponseEntity.status(HttpStatus.OK).body(response);
+        // return ResponseEntity.status(HttpStatus.OK).body(response);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @GetMapping(value = "/stop", produces = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<Void> stopApplicationForcefully() {
         System.exit(0);
 
-        return new  ResponseEntity<>(HttpStatus.NON_AUTHORITATIVE_INFORMATION);
+        return new ResponseEntity<>(HttpStatus.NON_AUTHORITATIVE_INFORMATION);
     }
 }

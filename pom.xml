@@ -15,6 +15,7 @@
     <artifactId>employee-management-system</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>employee management system</name>
     <description>employee management system</description>
 
     <modules>
@@ -27,6 +28,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <!-- Add typical dependencies for a web application -->
