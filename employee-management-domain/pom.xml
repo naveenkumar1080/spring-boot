@@ -20,7 +20,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.server.ems.EmployeeManagementSystemApplication</mainClass>
+                    <mainClass>EmployeeManagementSystemApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

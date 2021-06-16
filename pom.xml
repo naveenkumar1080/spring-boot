@@ -21,7 +21,7 @@
     <modules>
         <module>employee-management-domain</module>
         <module>employee-management-jpa</module>
-        <module>employee-management-server</module>
+        <module>employee-management-service</module>
         <module>employee-management-web</module>
     </modules>
 

@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/employee-management-domain/employee-management-domain.iml" filepath="$PROJECT_DIR$/employee-management-domain/employee-management-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/employee-management-jpa/employee-management-jpa.iml" filepath="$PROJECT_DIR$/employee-management-jpa/employee-management-jpa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/employee-management-server/employee-management-server.iml" filepath="$PROJECT_DIR$/employee-management-server/employee-management-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employee-management-service/employee-management-service.iml" filepath="$PROJECT_DIR$/employee-management-service/employee-management-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/employee-management-system.iml" filepath="$PROJECT_DIR$/.idea/employee-management-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/employee-management-web/employee-management-web.iml" filepath="$PROJECT_DIR$/employee-management-web/employee-management-web.iml" />
     </modules>
